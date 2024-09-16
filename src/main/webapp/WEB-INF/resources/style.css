@@ -1,0 +1,44 @@
+/* styles.css */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto; /* Centers the table on the page */
+    font-family: Arial, sans-serif; /* Sets the font family */
+}
+
+th, td {
+    padding: 12px 15px; /* Adds padding to table cells */
+    text-align: left; /* Aligns text to the left */
+    border: 1px solid #ddd; /* Adds a border around table cells */
+}
+
+th {
+    background-color: #f2f2f2; /* Adds a background color to table headers */
+    font-weight: bold; /* Makes table headers bold */
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Adds background color to even rows */
+}
+
+tr:hover {
+    background-color: #f1f1f1; /* Changes background color on hover */
+}
+
+button {
+    padding: 8px 12px; /* Adds padding to buttons */
+    margin: 0 5px; /* Adds margin to buttons */
+    background-color: #4CAF50; /* Sets button background color */
+    color: white; /* Sets button text color */
+    border: none; /* Removes button border */
+    border-radius: 4px; /* Adds rounded corners to buttons */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+}
+
+button:hover {
+    background-color: #45a049; /* Changes button background color on hover */
+}
+
+form {
+    display: inline; /* Keeps form elements inline */
+}
